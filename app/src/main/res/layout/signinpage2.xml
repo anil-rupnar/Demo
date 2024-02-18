@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="153dp"
+        android:layout_height="104dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:srcCompat="@drawable/page7" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="290dp"
+        android:layout_height="285dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-10dp"
+        tools:srcCompat="@drawable/Page2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="334dp"
+        android:layout_height="234dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="41dp"
+        tools:srcCompat="@drawable/page6" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="233dp"
+        android:layout_height="247dp"
+        android:src="@tools:sample/avatars"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="499dp"
+        tools:srcCompat="@drawable/page5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="306dp"
+        android:layout_height="53dp"
+        android:autoText="true"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="#894DF3"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="193dp"
+        android:layout_height="51dp"
+        android:text="Login"
+
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="********"
+        android:includeFontPadding="false"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:hint="anil@gmail.com"
+        android:includeFontPadding="false"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="382dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in to Continue"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Email"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Enter Password"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
